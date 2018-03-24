@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run(){
-                final Intent mainIntent = new Intent(MainActivity.this, Main2Activity.class);
+                final Intent mainIntent = new Intent(MainActivity.this, com.example.medmedifact.Main2Activity.class);
                 MainActivity.this.startActivity(mainIntent);
                 MainActivity.this.finish();
             }
@@ -27,3 +27,4 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
+//this is a test
