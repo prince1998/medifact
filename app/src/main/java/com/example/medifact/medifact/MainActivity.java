@@ -6,14 +6,17 @@ import android.os.Bundle;
 
 import android.os.Handler;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new Handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable()
+        {
             @Override
             public void run(){
                 final Intent mainIntent = new Intent(MainActivity.this, com.example.medmedifact.Main2Activity.class);
