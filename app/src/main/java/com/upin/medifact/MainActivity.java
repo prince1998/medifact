@@ -1,9 +1,11 @@
 package com.upin.medifact;
-//splash screen activity
+
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+//splash screen activity
 
 public class MainActivity extends AppCompatActivity
 {
