@@ -21,4 +21,3 @@ public class SecondFragment extends Fragment{
         return myView;
     }
 }
-
