@@ -7,23 +7,21 @@ import android.os.Bundle;
 
 //splash screen activity
 
-public class MainActivity extends AppCompatActivity
-{
-    private static int SPLASH_TIME_OUT =2500;
+public class MainActivity extends AppCompatActivity {
+    private static int SPLASH_TIME_OUT = 2500;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new Handler().postDelayed(new Runnable()
-        {
+        new Handler().postDelayed(new Runnable() {
             @Override
-            public void run()
-            {
-                Intent homeIntent = new Intent(MainActivity.this,Main2Activity.class);
+            public void run() {
+                Intent homeIntent = new Intent(MainActivity.this, Main2Activity.class);
                 startActivity(homeIntent);
                 finish();
             }
-        },SPLASH_TIME_OUT);
+        }, SPLASH_TIME_OUT);
 
+    }
 }
