@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/iot_project.iml" filepath="$PROJECT_DIR$/iot_project.iml" />
+<<<<<<< HEAD
+      <module fileurl="file://C:\Users\Prince\AndroidStudioProjects\IOT GitHub sync\iot_project\medifact.iml" filepath="C:\Users\Prince\AndroidStudioProjects\IOT GitHub sync\iot_project\medifact.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/medifact.iml" filepath="$PROJECT_DIR$/medifact.iml" />
+>>>>>>> 512bc5b328d5f3b12a8f8426dc38167425bfd23a
     </modules>
   </component>
 </project>

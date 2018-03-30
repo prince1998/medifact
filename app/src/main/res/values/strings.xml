@@ -6,6 +6,12 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+=======
     <string name="step_counter">
          android.hardware.sensor.stepcounter
    </string>
@@ -15,4 +21,5 @@
          android.hardware.sensor.stepdetector
    </string>
 
+>>>>>>> 512bc5b328d5f3b12a8f8426dc38167425bfd23a
 </resources>
