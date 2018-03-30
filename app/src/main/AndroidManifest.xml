@@ -24,12 +24,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:theme="@style/AppTheme.NoActionBar" />
 <<<<<<< HEAD
 =======
         <activity android:name=".NotificationTest" />
         <activity android:name=".pedometer"></activity>
 >>>>>>> 512bc5b328d5f3b12a8f8426dc38167425bfd23a
+=======
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+>>>>>>> parent of 534041f... Added Number Picker  string
 =======
             android:theme="@style/AppTheme.NoActionBar"></activity>
 >>>>>>> parent of 534041f... Added Number Picker  string
