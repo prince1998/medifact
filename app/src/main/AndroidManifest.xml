@@ -19,21 +19,8 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             android:theme="@style/AppTheme.NoActionBar" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 <<<<<<< HEAD
 =======
         <activity android:name=".NotificationTest" />
@@ -66,21 +53,8 @@
 =======
         <activity android:name=".NotificationTest"></activity>
 >>>>>>> parent of 3a22d8c... implemented pedometer
-=======
-        <activity android:name=".NotificationTest"></activity>
->>>>>>> parent of 3a22d8c... implemented pedometer
-=======
-        <activity android:name=".NotificationTest"></activity>
->>>>>>> parent of 3a22d8c... implemented pedometer
-=======
-        <activity android:name=".NotificationTest"></activity>
->>>>>>> parent of 3a22d8c... implemented pedometer
-=======
-        <activity android:name=".NotificationTest"></activity>
->>>>>>> parent of 3a22d8c... implemented pedometer
-=======
-        <activity android:name=".NotificationTest"></activity>
->>>>>>> parent of 3a22d8c... implemented pedometer
+    =======
+
     </application>
 
 </manifest>
