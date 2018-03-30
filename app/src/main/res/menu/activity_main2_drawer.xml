@@ -20,6 +20,7 @@
     </group>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!--<item android:title="Communicate">
     <menu>
         <itembkaa
@@ -33,6 +34,8 @@
     </menu>
 </item>-->
 =======
+=======
+>>>>>>> parent of 534041f... Added Number Picker  string
     <item android:title="Communicate">
         <menu>
             <item
@@ -45,6 +48,9 @@
                 android:title="Send" />
         </menu>
     </item>
+<<<<<<< HEAD
+>>>>>>> parent of 534041f... Added Number Picker  string
+=======
 >>>>>>> parent of 534041f... Added Number Picker  string
 
 </menu>
