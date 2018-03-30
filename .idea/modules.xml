@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-<<<<<<< HEAD
-
-      <module fileurl="file://$PROJECT_DIR$/medifact.iml" filepath="$PROJECT_DIR$/medifact.iml" />
->>>>>>> parent of 534041f... Added Number Picker  string
-
-    </modules>
-  </component>
+    <component name="ProjectModuleManager">
+        <modules>
+            <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+            <module fileurl="file://$PROJECT_DIR$/medifact.iml" filepath="$PROJECT_DIR$/medifact.iml" />
+            <module fileurl="file://$PROJECT_DIR$/iot_project.iml" filepath="$PROJECT_DIR$/iot_project.iml" />
+            <module fileurl="file://C:\Users\Prince\AndroidStudioProjects\IOT GitHub sync\iot_project\medifact.iml" filepath="C:\Users\Prince\AndroidStudioProjects\IOT GitHub sync\iot_project\medifact.iml" />
+        </modules>
+    </component>
 </project>
