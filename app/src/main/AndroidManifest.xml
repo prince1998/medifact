@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <activity android:name=".NotificationTest" />
         <activity android:name=".pedometer"></activity>
@@ -63,6 +64,9 @@
 =======
             android:theme="@style/AppTheme.NoActionBar"></activity>
 >>>>>>> parent of 534041f... Added Number Picker  string
+=======
+        <activity android:name=".NotificationTest"></activity>
+>>>>>>> parent of 3a22d8c... implemented pedometer
 =======
         <activity android:name=".NotificationTest"></activity>
 >>>>>>> parent of 3a22d8c... implemented pedometer
