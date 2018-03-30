@@ -7,6 +7,7 @@
 =======
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/iot_project.iml" filepath="$PROJECT_DIR$/iot_project.iml" />
 <<<<<<< HEAD
       <module fileurl="file://C:\Users\Prince\AndroidStudioProjects\IOT GitHub sync\iot_project\medifact.iml" filepath="C:\Users\Prince\AndroidStudioProjects\IOT GitHub sync\iot_project\medifact.iml" />
@@ -17,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/medifact.iml" filepath="$PROJECT_DIR$/medifact.iml" />
 >>>>>>> parent of 534041f... Added Number Picker  string
 >>>>>>> bd4014b2be3b253479f6e6d91cd0c886d7f2735a
+=======
+      <module fileurl="file://$PROJECT_DIR$/medifact.iml" filepath="$PROJECT_DIR$/medifact.iml" />
+>>>>>>> parent of 534041f... Added Number Picker  string
     </modules>
   </component>
 </project>

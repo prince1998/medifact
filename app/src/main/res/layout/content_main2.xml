@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 534041f... Added Number Picker  string
@@ -47,9 +48,15 @@
 >>>>>>> parent of d0235c0... Created splash screen activity
         <ImageView
             android:id="@+id/imageView7"
+=======
+        <FrameLayout
+            android:id="@+id/content_frame"
+>>>>>>> parent of 534041f... Added Number Picker  string
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
+<<<<<<< HEAD
             android:layout_alignParentTop="true"
             android:layout_marginStart="15dp"
             android:layout_marginTop="31dp"
@@ -58,5 +65,10 @@
 >>>>>>> parent of d0235c0... Created splash screen activity
 =======
 >>>>>>> parent of d0235c0... Created splash screen activity
+=======
+            android:layout_marginStart="7dp">
+
+        </FrameLayout>
+>>>>>>> parent of 534041f... Added Number Picker  string
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
