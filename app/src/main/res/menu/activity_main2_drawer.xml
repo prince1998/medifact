@@ -7,18 +7,19 @@
         <item
             android:id="@+id/nav_first_layout"
             android:icon="@drawable/ic_menu_camera"
-            android:title="BMI Calculator" />
+            android:title="Import" />
         <item
             android:id="@+id/nav_second_layout"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Pedometer" />
+            android:title="Gallery" />
         <item
             android:id="@+id/nav_third_layout"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Health News" />
+            android:title="Slideshow" />
 
     </group>
 
+<<<<<<< HEAD
     <!--<item android:title="Communicate">
     <menu>
         <itembkaa
@@ -31,5 +32,19 @@
             android:title="Send" />
     </menu>
 </item>-->
+=======
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+>>>>>>> parent of 534041f... Added Number Picker  string
 
 </menu>
