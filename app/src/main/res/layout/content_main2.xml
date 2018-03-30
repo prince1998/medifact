@@ -16,5 +16,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+<<<<<<< HEAD
+=======
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="7dp">
+
+        </FrameLayout>
+>>>>>>> parent of 534041f... Added Number Picker  string
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
