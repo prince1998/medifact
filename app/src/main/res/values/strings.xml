@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
@@ -47,6 +48,8 @@
 >>>>>>> parent of 534041f... Added Number Picker  string
 =======
 >>>>>>> parent of 534041f... Added Number Picker  string
+=======
+>>>>>>> parent of 3a22d8c... implemented pedometer
 =======
 >>>>>>> parent of 3a22d8c... implemented pedometer
 </resources>
