@@ -17,7 +17,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 534041f... Added Number Picker  string
+=======
+>>>>>>> parent of 534041f... Added Number Picker  string
         <FrameLayout
             android:id="@+id/content_frame"
             android:layout_width="match_parent"
@@ -27,6 +33,12 @@
             android:layout_marginStart="7dp">
 
         </FrameLayout>
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 534041f... Added Number Picker  string
+=======
+>>>>>>> parent of 534041f... Added Number Picker  string
+=======
 >>>>>>> parent of 534041f... Added Number Picker  string
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
