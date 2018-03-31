@@ -18,6 +18,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 03b1c68... Merge branch 'master' of https://github.com/urmilshroff/iot_project into 3a22d8c
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -42,6 +45,7 @@
 =======
 >>>>>>> parent of 534041f... Added Number Picker  string
     </RelativeLayout>
+<<<<<<< HEAD
 =======
         <ImageView
 <<<<<<< HEAD
@@ -72,4 +76,6 @@
             app:srcCompat="@drawable/image (1)" />
     </RelativeLayout>
 >>>>>>> parent of 4184ea6... main2 Activity
+=======
+>>>>>>> parent of 03b1c68... Merge branch 'master' of https://github.com/urmilshroff/iot_project into 3a22d8c
 </android.support.constraint.ConstraintLayout>
