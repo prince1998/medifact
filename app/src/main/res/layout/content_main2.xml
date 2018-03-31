@@ -7,15 +7,30 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.upin.medifact.Main2Activity"
     tools:showIn="@layout/app_bar_main2">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.upin.medifact.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
 
-    <RelativeLayout
-        android:layout_width="344dp"
-        android:layout_height="495dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/bmi" />
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,4 +56,22 @@
 =======
 >>>>>>> parent of 534041f... Added Number Picker  string
     </RelativeLayout>
+=======
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/news" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="172dp"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom|left|center_vertical|center_horizontal"
+            app:srcCompat="@drawable/pedometer" />
+    </FrameLayout>
+</RelativeLayout>
+
+>>>>>>> 4184ea63a428191488c77843da036930f4d49aed
 </android.support.constraint.ConstraintLayout>
