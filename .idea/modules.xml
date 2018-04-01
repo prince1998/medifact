@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/medifact.iml" filepath="$PROJECT_DIR$/medifact.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/iot_project.iml" filepath="$PROJECT_DIR$/iot_project.iml" />
+>>>>>>> 1f20019982ed5376c2cd7c2308d4698afd24e56c
     </modules>
   </component>
 </project>
