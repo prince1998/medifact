@@ -31,13 +31,13 @@ String name,email,password;
             @Override
             public void onClick(View view)
             {
-                if(name.getText().toString().equals("urmil"))
+                if(name.getText().toString().equals(""))
                 {
-                    Toast.makeText(MainActivity.this, "Welcome, Urmil!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Please enter a valid name", Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
-                    Toast.makeText(MainActivity.this, "WTF BOI", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Login success!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
