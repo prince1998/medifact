@@ -1,6 +1,7 @@
 package com.upin.firebase;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +18,6 @@ import com.google.firebase.auth.FirebaseAuth;
 public class MainActivity extends AppCompatActivity
 {
 public String name,email,password;
-public ProgressDialog loader;
 public FirebaseAuth authenticator;
 
     @Override
@@ -25,8 +25,6 @@ public FirebaseAuth authenticator;
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        loader=new ProgressDialog(this);
 
         authenticator=FirebaseAuth.getInstance();
 
@@ -50,12 +48,27 @@ public FirebaseAuth authenticator;
                 {
                     Toast.makeText(MainActivity.this, "Please enter a valid name", Toast.LENGTH_SHORT).show();
                 }
+
+                else if(email.getText().toString().isEmpty())
+                {
+                    Toast.makeText(MainActivity.this, "Please enter a valid Email ID", Toast.LENGTH_SHORT).show();
+                }
+
+                else if(password.getText().toString().isEmpty())
+                {
+                    Toast.makeText(MainActivity.this, "Please enter a complex password", Toast.LENGTH_SHORT).show();
+                }
+
                 else
                 {
-                    loader.setMessage("Registering "+name+"...");
-                    loader.show();
-
+                    Toast.makeText(MainActivity.this, "Registering...", Toast.LENGTH_LONG).show();
                     authenticator.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString());
+
+                    Intent launchApp=getPackageManager().getLaunchIntentForPackage("com.whatsapp");
+                    if(launchApp!=null)
+                    {
+                        startActivity(launchApp);
+                    }
 
                 }
             }
