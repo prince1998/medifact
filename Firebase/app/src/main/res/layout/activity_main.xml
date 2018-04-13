@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="75dp"
         android:fontFamily="casual"
-        android:text="Welcome to MediFact!"
+        android:text="Welcome to MediFact"
         android:textSize="20sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="69dp"
