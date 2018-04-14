@@ -10,7 +10,6 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.media.Image;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,9 +26,9 @@ public  class Pedometer extends Fragment {
     View parentHolder;
     ImageButton Shoes;
     Activity UpdatesActivity;
-    @Nullable
+
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,  ViewGroup container, Bundle savedInstanceState) {
 
         parentHolder = inflater.inflate(R.layout.updates, container, false);
         Shoes = (ImageButton)parentHolder.findViewById(R.id.shoes);
