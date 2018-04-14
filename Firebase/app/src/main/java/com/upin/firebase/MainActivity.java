@@ -61,10 +61,10 @@ public FirebaseAuth authenticator;
 
                 else
                 {
-                    Toast.makeText(MainActivity.this, "Registering...", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Registered", Toast.LENGTH_LONG).show();
                     authenticator.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString());
 
-                    Intent launchApp=getPackageManager().getLaunchIntentForPackage("com.whatsapp");
+                    Intent launchApp=getPackageManager().getLaunchIntentForPackage("medifact.upin.medifact");
                     if(launchApp!=null)
                     {
                         startActivity(launchApp);
