@@ -38,8 +38,8 @@ public  class Pedometer extends Fragment {
         Shoes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),Pedo_New.class);
-                startActivity(intent);
+                Intent i = new Intent(getActivity(),Pedo_New.class);
+                startActivity(i);
             }
         });
         return parentHolder;
