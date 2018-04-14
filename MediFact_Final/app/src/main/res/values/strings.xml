@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MediFact</string>
+    <string name="severely_underweight">Severely_underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="very_severely_underweight">Very_severely_underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_i">Obese_class_i</string>
+    <string name="obese_class_ii">Obese_class_ii</string>
+    <string name="obese_class_iii">Obese_class_iii</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="medifact_email">upin@medifact.com</string>
+    <string name="step_counter">
+         android.hardware.sensor.stepcounter
+   </string>
+    <string name="step_detector">
+         android.hardware.sensor.stepdetector
+   </string>
+</resources>

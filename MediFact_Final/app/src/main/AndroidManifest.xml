@@ -2,15 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="medifact.upin.medifact">
 
-    <uses-feature android:name="android.hardware.SensorManager" android:required="true" />
-    <uses-feature android:name="android.hardware.SensorEventListener" android:required="true" />
-    <uses-feature android:name="android.hardware.Sensor.accelerometer" android:required="true" />
-    <uses-feature android:name="@string/step_detector" android:required="true" />
-    <uses-feature android:name="android.hardware.Sensor.stepcounter" android:required="true" />
+    <uses-feature
+        android:name="android.hardware.SensorManager"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.SensorEventListener"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.Sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="@string/step_detector"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.Sensor.stepcounter"
+        android:required="true" />
 
-
-
-    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -29,14 +36,18 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Pedometer">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <activity android:name=".Pedo_New">
+
+            <intent-filter>
+                <action android:name="medifact.upin.medifact.Pedo_New" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
+
+
         </activity>
-       <!-- <activity android:name=".firebaseLogin"></activity>-->
     </application>
 
 </manifest>
