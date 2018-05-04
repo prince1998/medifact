@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class BMI_Calculator extends Fragment
-    
+
 {
     Activity BMIActivity;
     View parentHolder;
